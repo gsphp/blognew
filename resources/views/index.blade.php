@@ -8,7 +8,7 @@
             <div class="card border border-primary">
                 <div class="card-body">
                     <h1 class="card-title">Blog NotÍcias</h1>
-                    <a href="noticias" class="btn btn-primary">admin</a>
+                   
                     <p class="card=text">
                         sempre atualizado 24h por dia.
                     </p>
@@ -18,6 +18,9 @@
             <div class="card border border-primary">
                 <div class="card-body">
                 NOTÍCIAS AQUI
+                    <div class="text-right"> 
+                        <a href="noticias" class="btn btn-primary">admin</a>
+                    </div>
                 </div>
             </div>            
         </div>
