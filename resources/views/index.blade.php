@@ -7,7 +7,8 @@
         <div class="card-deck">
             <div class="card border border-primary">
                 <div class="card-body">
-                    <h1 class="card-title">Blog NotÍcias</h1><a href="noticias" class="btn btn-primary">admin</a>
+                    <h1 class="card-title">Blog NotÍcias</h1>
+                    <a href="noticias" class="btn btn-primary">admin</a>
                     <p class="card=text">
                         sempre atualizado 24h por dia.
                     </p>
@@ -17,30 +18,18 @@
             <div class="card border border-primary">
                 <div class="card-body">
                 NOTÍCIAS AQUI
-                <div class="card border">
-    <div class="card-body">
-        
-
-       
-    </div>
-    <div class="card-footer">
-        
-    </div>
-</div>
-
-            </div>
+                </div>
             </div>            
         </div>
     </div>
 </div>
 
-        <table class="table table-ordered table-hover" id="tabelanoticias">
-            <thead>
-            </thead>
-            <tbody>
-               
-            </tbody>
-        </table>
+<table class="table table-ordered table-hover" id="tabelanoticias">
+    <thead>
+    </thead>
+    <tbody>
+    </tbody>
+</table>
 
 
 @endsection
@@ -59,8 +48,8 @@
     
     function montarLinha(p) {
         var linha = "<tr>" +
-            "<td><h2><b>" + p.titulo + "</h2></b>" +
-            "<br><p>" + p.conteudo +"</p>"+ '<a href="vermais/' + p.id + '" class="btn btn-sm btn-info"> Ver mais </a> ' + "</p></td></tr>";
+        "<td><h2><b>" + p.titulo + "</h2></b>" +
+        "<br><p>" + p.conteudo +"</p>"+ '<a href="vermais/' + p.id + '" class="btn btn-sm btn-info"> Ver mais </a> ' + "</p></td></tr>";
         return linha;
     }
     
@@ -76,7 +65,6 @@
     
     
     $(function(){
-    
         carregarNoticias();
     })
     
