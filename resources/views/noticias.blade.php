@@ -43,35 +43,35 @@
                     <div class="form-group">
                         <label  class="control-label">Titulo</label>
                         <div class="form-group">
-                            <input type="text" class="form-control" id="tituloNoticia" placeholder="Insira o titulo da noticia">
+                            <input type="text" class="form-control" required="required" id="tituloNoticia" placeholder="Insira o titulo da noticia">
                         </div>
                     </div>
 
                     <div class="form-group">
                         <label  class="control-label">Conteúdo</label>
                         <div class="form-group">
-                            <input type="text" class="form-control" id="conteudoNoticia" placeholder="Conteúdo aqui">
+                            <input type="text" class="form-control" required="required" id="conteudoNoticia" placeholder="Conteúdo aqui">
                         </div>
                     </div>
                     
                     <div class="form-group">
                         <label  class="control-label">Categoria</label>
                         <div class="form-group">
-                            <input type="text" class="form-control" id="categoriaNoticia" placeholder="informe a categoria">
+                            <input type="text" class="form-control" required="required" id="categoriaNoticia" placeholder="informe a categoria">
                         </div>
                     </div>                    
 
                                         <div class="form-group">
                         <label for="quantidadeProduto" class="control-label">Autor</label>
                         <div class="form-group">
-                            <input type="text" class="form-control" id="autorNoticia" placeholder="Autor da notícia">
+                            <input type="text" class="form-control" required="required" id="autorNoticia" placeholder="Autor da notícia">
                         </div>
                     </div>                    
 
                                         <div class="form-group">
                         <label for="quantidadeProduto" class="control-label">Palavras Chave</label>
                         <div class="form-group">
-                            <input type="text" class="form-control" id="palavraschaveNoticia" placeholder="palavras separadas por virgúla">
+                            <input type="text" class="form-control" required="required" id="palavraschaveNoticia" placeholder="palavras separadas por virgúla">
                         </div>
                     </div>                    
 
